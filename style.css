@@ -1,0 +1,81 @@
+*.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;   
+    gap: 50px;        
+}
+
+.text-box{
+    margin-left: 20px;
+    
+    
+    line-height: 20px;
+}
+.login-box{
+    width: 300px;
+    height: 40vh;
+   
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 5px 5px 5px 2px grey , -5px -5px 5px -2px grey;         
+    border-radius: 10px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+   
+}
+
+.head{
+    color: rgb(77, 77, 255);
+    font-size: 3em;
+
+}
+p{
+    font-size: 1.5em;
+
+}
+hr{
+    width: 80%;
+}
+
+input{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.login-button{
+    width: 90%;
+    height: 30px;
+    background-color: rgb(63, 63, 253);
+    border-radius: 5px;
+    color: white;
+    font-size: larger;
+}
+.new-account{
+    background-color: rgb(62, 202, 7);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+
+    
+}
+a:hover{
+    color: blueviolet;
+}
+a:active{
+    color: rgb(25, 139, 35);
+}
+a:visited{
+color: red;
+}
